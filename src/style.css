@@ -1,0 +1,188 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url("../font/Montserrat/Montserrat-Regular.ttf") format("truetype");
+
+}
+
+body {
+    margin: 0;
+    padding : 0;
+    box-sizing: border-box;
+    line-height: 1.5;
+}
+
+.personnalisation {
+    background-color: #140E15;
+    background-size: cover;
+    color: white;
+    font-family: "Montserrat";
+    height: 100vh;
+    width : 100vw;
+    font-size : 12px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text_personnalisation {
+    text-align: center;
+    margin-top : 50px;
+}
+.wrap_desktop {
+    display : none;
+}
+.desktop {
+    display: none;
+}
+.desktop_color {
+    display:none;
+}
+
+.chinese_mask {
+    height: 245px;
+    width:223px;
+    
+}
+.box_personnalisation_mobile {
+    height : 180px;
+    width: 272px;
+    background-color: white;
+    color:black;
+    border-radius: 10px;
+    font-size : 12px;
+    font-weight: bold; 
+    padding-bottom: 21px;
+}
+.wrap{
+    margin-left: 5px;
+    
+}
+.color_image {
+    margin-left: 5px;
+    height: 27px;
+    width: 29px;
+}
+.box_color {
+    margin-bottom:15px;
+}
+.btn_desktop {
+    display:none;
+}
+.btn_mobile {
+    width : 108px;
+    height: 29px;
+    background-color: #6CCDA9;
+    font-size : 12px;
+    font-weight: bold;
+    color:white;
+    border-radius: 15px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    margin-left: 80px;
+    margin-top: 1em;
+}
+@media (min-width: 900px) {
+    .desktop {
+        display: block;
+    }
+    .btn_desktop {
+        display:block;
+        width: 212px;
+        height: 50px;
+        background-color: #6CCDA9;
+        color:white;
+        font-weight: bold;
+        font-size: 16px;
+        border-radius: 32px;
+        text-decoration : none;
+        border: none;
+    }
+    .box_personnalisation_mobile {
+        display : none;
+    }
+    
+    .personnalisation {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        position: relative;
+        background: 100% no-repeat url("../img/personnalisation5/background.svg");
+        background-size:cover;
+        max-width: 1500px;
+        max-height: 1132px;
+    }
+    .center_ou {
+        font-size : 25.88px;
+        font-weight: bold;
+        height: 300px;
+        width: 50px;
+        display: flex;
+        align-items:center;
+    }
+    .text_personnalisation {
+       text-align: left;
+       height: 214px;
+       width: 501px;
+       margin-top: 15%;
+       margin-left: 74px;
+       margin-bottom: 73px;
+       
+    }
+    .text_personnalisation h2 {
+        font-size: 41.89px;
+        font-weight: bold;
+     }
+     .text_personnalisation p {
+        font-size: 20px;
+        font-weight: normal ;
+     }
+    .wrap_desktop {
+        display: flex;
+        width :  580px;
+        height : 195px;
+        margin: 1em;
+    }
+    .box_tissue {
+        width: 194px;
+        height : 195px;
+        background-color: #FFFF;
+        font-size: 20px;
+        border-radius: 6px;
+        font-weight: bold;
+        color : black;
+        padding-left : 1em;
+        padding-right : 1em;
+        padding-bottom : 1em;
+        margin : 2em;
+        align-items : center;
+    }
+    .box_color {
+        width: 194px;
+        height : 195px;
+        background-color: #ffff;
+        border-radius: 6px;
+        font-size: 20px;
+        font-weight: bold;
+        color : black;
+        padding-left : 1em;
+        padding-right : 1em;
+        padding-bottom : 1em;
+        margin : 2em;
+    }
+    .chinese_mask {
+     width: 619px;
+     height:713px;
+     position: absolute;
+     bottom: 0;
+     right: 0;
+     z-index: 1;
+    }
+    .bubbles {
+        position: absolute;
+        right:0;
+        bottom:0;
+        
+    }
+    
+   
+}
